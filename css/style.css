@@ -13,13 +13,22 @@ footer {
 
 .nav-bar {
     display: flex;
-    
+    padding: 16px;
+    height: 75px;
 }
 
 .nav-bar .logo {
+    display: flex;
     flex: 2;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.nav-bar img {
+    align-items: flex-end;
+    height: 35px;
+    /*try to fix white-background of png's*/
+    /* mix-blend-mode: multiply; */
 }
 
 .nav-bar ul {
@@ -46,13 +55,14 @@ footer {
 .hero-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('/img/puppy.jpg');
+    height: 600px;
     width: auto;
-    height: 500px;
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
     position: relative;
     background-position: center;
+    overflow: hidden;
 }
 
 .hero-text h1 {
@@ -65,4 +75,20 @@ footer {
     font-size: 18px;
     color: #E5E7EB;
 }
-    
+
+.hero-text button {
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 15px 50px 30px;
+    border: 2px solid #68a31f8a;
+
+    /* opacity: 0.7;
+    outline: none;
+    background-color: transparent;
+    border: none; */
+}
+
+.hero-text button:hover {
+    color: blue;
+    border: 2px solid blue;
+}
