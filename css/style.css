@@ -11,6 +11,10 @@ footer {
     background-color: #1F2937;
 }
 
+footer {
+    text-align: center;
+}
+
 .nav-bar {
     display: flex;
     padding: 16px;
@@ -124,10 +128,10 @@ footer {
 
 blockquote {
     background-color: #E5E7EB;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 32px;
+    width: 1000px;
+    text-align: center;
+    margin: 3em auto;
 }
 
 .quote {
@@ -140,7 +144,7 @@ blockquote {
 
 cite {
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     color: #1F2937;
     position: absolute;
@@ -148,3 +152,4 @@ cite {
     bottom: -30px;
     text-align: right;
 }
+
