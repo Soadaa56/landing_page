@@ -63,6 +63,7 @@ footer {
     position: relative;
     background-position: center;
     overflow: hidden;
+    border: 2px solid #3882F6;
 }
 
 .hero-text h1 {
@@ -80,7 +81,7 @@ footer {
     font-size: 16px;
     padding: 6px;
     border-radius: 15px 50px 30px;
-    border: 2px solid #68a31f8a;
+    border: 2px solid #3882F6;
 
     /* opacity: 0.7;
     outline: none;
@@ -91,4 +92,59 @@ footer {
 .hero-text button:hover {
     color: blue;
     border: 2px solid blue;
+}
+
+.content {
+    background-color: #E5E7EB;
+}
+
+.print-info,
+.crochet-info {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 1000;
+    padding: 32px;
+}
+
+.print-container,
+.crochet-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.info {
+    border: 3px solid #3882F6;
+    padding: 8px;
+    margin: 16px;
+    flex: 0 0 20%;
+}
+
+blockquote {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+
+.quote {
+    padding: 50px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    position: relative;
+}
+
+cite {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    text-align: right;
 }
